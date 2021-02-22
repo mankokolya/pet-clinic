@@ -34,7 +34,7 @@ public class OwnerController {
 
     @RequestMapping("/find")
     public String findOwners(Model model){
-        model.addAttribute("owner", Owner.builder().build());
+//        model.addAttribute("owner", Owner.builder().build());
         return "owners/findOwners";
     }
 
@@ -72,7 +72,7 @@ public class OwnerController {
 
     @GetMapping("/new")
     public String initCreationForm(Model model) {
-        model.addAttribute("owner", Owner.builder().build());
+//        model.addAttribute("owner", Owner.builder().build());
         return VIEWS_OWNER_CREATE_OR_UPDATE_FORM;
     }
 

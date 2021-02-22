@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by jt on 7/18/18.
  */
-@Service
+//@Service
 public interface OwnerService extends CrudService<Owner, Long> {
 
     Owner findByLastName(String lastName);
