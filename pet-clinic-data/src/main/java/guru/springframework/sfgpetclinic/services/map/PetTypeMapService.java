@@ -12,7 +12,7 @@ import java.util.Set;
  * Created by jt on 7/29/18.
  */
 @Service
-@Primary
+@Profile({"default", "map"})
 
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 

@@ -12,7 +12,7 @@ import java.util.Set;
  * Created by jt on 7/31/18.
  */
 @Service
-@Primary
+@Profile({"default", "map"})
 
 public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtyService {
 

@@ -12,7 +12,8 @@ import java.util.Set;
  * Created by jt on 7/21/18.
  */
 @Service
-@Primary
+@Profile({"default", "map"})
+
 
 public class PetMapService extends AbstractMapService<Pet, Long> implements PetService {
     @Override
