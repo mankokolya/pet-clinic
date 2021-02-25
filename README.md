@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/springframeworkguru/sfg-pet-clinic.svg?style=svg)](https://circleci.com/gh/springframeworkguru/sfg-pet-clinic)
+[![CircleCI](https://circleci.com/gh/mankokolya/pet-clinic.svg?style=svg)](https://circleci.com/gh/mankokolya/pet-clinic)
 
 # Spring Framework Guru Pet Clinic
 
